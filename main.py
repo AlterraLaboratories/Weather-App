@@ -8,7 +8,7 @@ BASE_URL = "http://api.weatherapi.com/v1/current.json"
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-def get_weather(city_name):
+def get_weather(city_name, advanced=False):
     try:
         # Construct the API request URL with the API key and city name
         url = f"{BASE_URL}?key={API_KEY}&q={city_name}&aqi=no"
@@ -30,7 +30,17 @@ def get_weather(city_name):
             print(f"Weather in {location}:")
             print(f"Temperature: {temperature}°C")
             print(f"Condition: {condition}")
-            
+
+            # Check if the advanced option is selected
+            if advanced:
+                wind_speed = data['current']['wind_kph']
+                wind_direction = data['current']['wind_dir']
+                feels_like = data['current']['feelslike_c']
+                
+                print(f"Wind Speed: {wind_speed} km/h")
+                print(f"Wind Direction: {wind_direction}")
+                print(f"Feels Like Temperature: {feels_like}°C")
+
             input("\nPress Enter to return to the selection menu...")
             clear_screen()
         else:
@@ -43,7 +53,8 @@ while True:
     print("")
     print("Select an option:")
     print("1. Show Weather")
-    print("2. Exit")
+    print("2. Show Advanced Weather")
+    print("3. Exit")
 
     selection = input("Selection: ")
     if selection == "1":
@@ -52,6 +63,11 @@ while True:
         clear_screen()
         get_weather(city_name) # Call the get_weather function
     elif selection == "2":
+        clear_screen()
+        city_name = input("Enter a city name: ")
+        clear_screen()
+        get_weather(city_name, advanced=True) # Call the get_weather function with advanced option
+    elif selection == "3":
         exit()
     else:
         print("Invalid selection")

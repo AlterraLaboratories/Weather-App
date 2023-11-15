@@ -6,6 +6,7 @@ A Python program that retrieves and displays weather information from the weathe
 
 - [Description](#description)
 - [Features](#features)
+- [How to get Custom API Key](#API)
 - [API Used](#api-used)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -21,6 +22,18 @@ The Weather App is a Python program that allows users to input a city name, fetc
 - Fetches and displays real-time weather data.
 - Clear screen functionality for a better user experience.
 - Easy-to-use interface for entering city names.
+
+## API
+
+### How to get custom API Key
+
+1. Navigate to [https://www.weatherapi.com/](https://www.weatherapi.com/) on your browser
+2. Press on **Sign Up**
+3. Enter the details as described
+4. Follow instructions on the website
+5. At the top you should see your API Key
+6. Copy it and paste it into the program
+7. Enjoy
 
 ## API Used
 

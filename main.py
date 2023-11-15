@@ -3,7 +3,7 @@ import requests
 from datetime import date
 
 # Define your API key and the base URL
-API_KEY = "d4fef929ea3a42d295a210451232909"
+API_KEY = ""
 BASE_URL = "http://api.weatherapi.com/v1/current.json"
 ASTRONOMY_BASE_URL = "http://api.weatherapi.com/v1/astronomy.json"
 

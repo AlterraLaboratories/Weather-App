@@ -67,6 +67,8 @@ The Weather App is a Python program that allows users to input a city name, fetc
 
 Follow the installation instructions to set up the Weather App on your local machine.
 
+Install `requirements.txt`
+
 Execute the program by running `python weather_app.py`.
 
 Enter the name of the city for which you want to retrieve weather information.

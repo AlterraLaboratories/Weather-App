@@ -79,4 +79,3 @@ Contributions to the Weather App project are welcome. You can contribute by:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-

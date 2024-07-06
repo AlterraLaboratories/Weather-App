@@ -6,7 +6,7 @@ A Python program that retrieves and displays weather information from the weathe
 
 - [Description](#description)
 - [Features](#features)
-- [How to get Custom API Key](#API)
+- [API](#api)
 - [API Used](#api-used)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -15,7 +15,7 @@ A Python program that retrieves and displays weather information from the weathe
 
 ## Description
 
-The Weather App is a Python program that allows users to input a city name, fetches real-time weather data from the weatherapi.com API, and displays the weather conditions including temperature, and condition description.
+The Weather App is a Python program that allows users to input a city name, fetches real-time weather data from the weatherapi.com API, and displays the weather conditions including temperature and condition description.
 
 ## Features
 
@@ -25,37 +25,41 @@ The Weather App is a Python program that allows users to input a city name, fetc
 
 ## API
 
-### How to get custom API Key
+### How to get Custom WeatherAPI Key
 
-1. Navigate to [https://www.weatherapi.com/](https://www.weatherapi.com/) on your browser
-2. Press on **Sign Up**
-3. Enter the details as described
-4. Follow instructions on the website
-5. At the top you should see your API Key
-6. Copy it and paste it into the program
-7. Enjoy
+1. Navigate to [weatherapi.com](https://www.weatherapi.com/) on your browser.
+2. Click on **Sign Up**.
+3. Enter the required details and follow the instructions on the website.
+4. Once registered and logged in, locate your API Key on the dashboard.
+5. Copy your API Key and paste it into the program when prompted.
+
+### How to get Custom N2YO API Key
+
+1. Navitage to [n2yo.com/api](https://www.n2yo.com/api/) on your browser.
+2. Follow the Instructions
 
 ## API Used
 
 - [weatherapi.com](https://www.weatherapi.com/): Provides real-time weather data.
+- [weatherapi.com](https://n2yo.com): Provides real-time satellite data.
 
 ## Installation
 
 1. Clone the repository to your local machine:
 
-   ```bash
+   ```
    git clone https://github.com/AlterraLaboratories/Weather-App.git
    ```
 
 2. Navigate to the project directory:
 
-   ```bash
+   ```
    cd Weather-App
    ```
 
 3. Run the program:
 
-   ```bash
+   ```
    python weather_app.py
    ```
 
@@ -79,3 +83,7 @@ Contributions to the Weather App project are welcome. You can contribute by:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Make sure to replace the placeholder API Key with actual instructions on how users can obtain their own API Key from weatherapi.com. Adjust any URLs or additional instructions as necessary based on your application's specific requirements.

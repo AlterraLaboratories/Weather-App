@@ -83,7 +83,3 @@ Contributions to the Weather App project are welcome. You can contribute by:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Make sure to replace the placeholder API Key with actual instructions on how users can obtain their own API Key from weatherapi.com. Adjust any URLs or additional instructions as necessary based on your application's specific requirements.
